@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    color: #ffffff;
+    background: #282c34;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Lobster', sans-serif;
+    padding: 30px;
+    font-size: 29px;
+}
+
+.reactLinkH1{
+    color: #61dafb;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+}
+
+.reactLinkH1:hover{
+    text-decoration: underline;
+}
+
+.grafikartLinkH1{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.grafikartLinkH1:hover{
+    text-decoration: underline;
+}
+
+h2{
+    padding: 15px;
+    font-size: 23px;
+}
+
+.bleuReact{
+    color: #61dafb;
+    letter-spacing: 0.01em;
+}

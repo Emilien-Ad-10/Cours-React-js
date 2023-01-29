@@ -9,18 +9,54 @@
         <title>apprentissage de réact.js</title>
     </head>
     <body>
-        <h1>J'apprend <a class="reactLinkH1" href="https://fr.reactjs.org" target="_blank">React</a> avec <a class="grafikartLinkH1" href="https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR" target="_blank">Grafikart.fr</a></h1>
+        <div class="container">
+            <header>
+                <h1>J'apprend <a class="reactLinkH1" href="https://fr.reactjs.org" target="_blank">React</a> avec <a class="grafikartLinkH1" href="https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR" target="_blank">Grafikart.fr</a></h1>
+    
+                <h2><span class="orangeChapitre">Chapitre 1 : </span>Introduction</h2>
+    
+                <p><span class="bleuReact">React</span> est une librairie JavaScript pour créer des interfaces utilisateurs. Une librairie est là pour résoudre un problème. <span class="bleuReact">React</span> n'est pas le meilleur des frameworks, il est juste différents.Il est plus simple que d'autres dans le sens ou il y a assez peu de méthode/fonction à connaitre</p>
+                
+                <p>Concernant son écosystème, on a différents adapteurs:
+                    <ul>
+                        <li><span class="bleuReact">React</span> DOM pour effectuer des modifications sur le DOM,</li>
+                        <li><span class="bleuReact">React</span> native pour la conception d'application native,</li>
+                        <li><span class="bleuReact">React</span> desktop pour des applications desktop,</li>
+                        <li>etc...</li>
+                    </ul></p>
+                
+                <p><span class="bleuReact">React</span> dispose également d'une syntaxe spécifique appelée le <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span></p>
+            </header>
+    
+            <main>
+                <h2><span class="orangeChapitre">Chapitre 2 : </span>Premiers pas avec <span class="bleuReact">React</span></h2>
+                
+                <p>L'utilisation des scripts suivants permettent de commencer de la manière la plus simple pour l'apprentissage de <span class="bleuReact">React</span> sans avoir à utiliser différents outils comme node.js, etc...
+                    <ul>
+                        <li>&lt;script crossorigin src="https://unpkg.com/react@16/umd/react.development.js">&lt;/script></li>
+                        <li>&lt;script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">&lt;/script></li>
+                    </ul></p>
+                
+                <p>Utilisation:
+                    <ul>
+                        <li><span class="bleuReact">React</span> permet la création d'élement,</li>
+                        <li><span class="bleuReact">React</span> DOM permet de brancher les différents éléments au DOM (page web)</li>
+                    </ul></p>
 
-        <h2><span class="orangeChapitre">Chapitre 1 : </span>Introduction</h2>
+                <p class="grasColor">Cas pratique :</p>
+                <ol>
+                    <li>Création d'un paragraphe puis insérer du texte: (Voir avec l'inspecteur d'élément pour la création de balise HTML)</li>
+                    <li>Rajout d'un compte à rebours dans une balise &lt;span></li>
+                </ol>
+                <aside><!-- Code injecté via React.js --></aside>
+                
+                <span class="grasColor">Remarque :</span>
+                <p><span class="bleuReact">React</span> est capable de détecter la ou la changement à lieu et permet d'éviter le rechargement complet de la fonction. Pour faire simple, <span class="bleuReact">React</span> permet de cibler la ou l'action est requise.</p>
 
-        <p><span class="bleuReact">React</span> est une librairie JavaScript pour créer des interfaces utilisateurs. Une librairie est là pour résoudre un problème.</p>
-
-        <h2><span class="orangeChapitre">Chapitre 2 : </span>Premiers pas avec <span class="bleuReact">React</span></h2>
-
-        <div><!-- Code injecté via React.js --></div>
-
-        <h2 class="h2JSX"><span class="orangeChapitre">Chapitre 3 :</span><span class="textChap3">La syntaxe </span><span class="JSdeJSX">JS</span><span class="XdeJSX">X</span></h2>
-        <img class="imgJSX" src="img/jsx-logo-small.jpg">
+                <h2 class="h2JSX"><span class="orangeChapitre">Chapitre 3 :</span><span class="textChap3">La syntaxe </span><span class="JSdeJSX">JS</span><span class="XdeJSX">X</span></h2>
+                <img class="imgJSX" src="img/jsx-logo-small.jpg">
+            </main>
+        </div>
     </body>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>

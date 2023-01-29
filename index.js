@@ -5,7 +5,7 @@ function render(){
     'Compte à rebours : ',
     React.createElement('span', {}, CaR)    
     );
-    ReactDOM.render(paragrapheCaR, document.querySelector('div'));
+    ReactDOM.render(paragrapheCaR, document.querySelector('aside'));
 }
 render();
 

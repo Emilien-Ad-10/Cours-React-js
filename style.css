@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* RESET */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,6 +20,7 @@ body{
     align-items: center;
 }
 
+/* H1 */
 h1{
     font-family: 'Lobster', sans-serif;
     padding: 30px;
@@ -38,13 +40,18 @@ h1{
 .grafikartLinkH1{
     color: #ffffff;
     text-decoration: none;
-    transition: all .3s ease;
 }
 
 .grafikartLinkH1:hover{
     text-decoration: underline;
 }
 
+/* Class générale H2 */
+.orangeChapitre{
+    color: #FFA500;
+}
+
+/* H2 */
 h2{
     padding: 15px;
     font-size: 23px;
@@ -53,4 +60,23 @@ h2{
 .bleuReact{
     color: #61dafb;
     letter-spacing: 0.01em;
+}
+
+.h2JSX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textChap3{
+    padding-left: 5px;
+}
+
+.JSdeJSX{
+    padding-left: 5px;
+    color:  #c7c7c7;
+}
+
+.XdeJSX{
+    color: #A80808;
 }

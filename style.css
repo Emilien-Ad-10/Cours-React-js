@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+/* BODY */
 body{
     background: rgba(40, 44, 52, .9);
     font-family: 'Lato', sans-serif;
@@ -45,36 +46,68 @@ p{
     margin: 3px;
 }
 
-/* GRASCOLOR */
-.grasColor{
+/* span bleuReact */
+.bleuReact{
+    color: #61dafb;
+    letter-spacing: 0.01em;
+}
+
+/* span vertGrafikart */
+.vertGrafikart{
     font-weight: bold;
-    color: #fb61e1;
+    color: #9ece6a;
 }
 
 /* H1 */
 h1{
     font-family: 'Lobster', sans-serif;
     padding: 30px;
-    font-size: 29px;
+    font-size: 33px;
 }
 
-.reactLinkH1{
+/* images links */
+.imgLinks{
+    display: flex;
+}
+
+.p_img-React-links a, .p_img-Grafikart-links a{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.p_img-React-links a span{
+    color: #fff;
+    margin-left: 2px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.p_img-React-links a span:hover{
     color: #61dafb;
-    letter-spacing: 0.01em;
-    text-decoration: none;
 }
 
-.reactLinkH1:hover{
-    text-decoration: underline;
+.p_img-Grafikart-links a span{
+    color: #fff;
+    margin-left: -15px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
 }
 
-.grafikartLinkH1{
-    color: #ffffff;
-    text-decoration: none;
+.p_img-Grafikart-links a span:hover{
+    color: #9ece6a;
 }
 
-.grafikartLinkH1:hover{
-    text-decoration: underline;
+.p_img-React-links a span:active, .p_img-Grafikart-links a span:active{
+    color: #fff;
+    transition: none;
+}
+
+.p_img-React-links img, .p_img-Grafikart-links img{
+    width: 50px;
+    height: 50px;
 }
 
 /* Class générale H2 */
@@ -86,11 +119,6 @@ h1{
 h2{
     padding: 15px;
     font-size: 23px;
-}
-
-.bleuReact{
-    color: #61dafb;
-    letter-spacing: 0.01em;
 }
 
 .textChap3{

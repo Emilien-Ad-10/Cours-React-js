@@ -75,7 +75,6 @@ h1{
     flex-direction: column;
     margin: 15px;
     color: #c7c7c7;
-    text-decoration: none;
 }
 
 .p_img-React-links a span{
@@ -132,4 +131,19 @@ h2{
 
 .XdeJSX{
     color: #A80808;
+}
+
+.babelLink{
+    color: #fff;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.babelLink:hover{
+    color: #f5da55;
+}
+
+.babelLink:active{
+    transition: none;
+    color: #fff;
 }

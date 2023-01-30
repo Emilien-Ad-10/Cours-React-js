@@ -43,6 +43,13 @@ header, main{
 
 /* paragraphe */
 p{
+    max-width: 90%;
+    margin: 3px;
+}
+
+/* liste à puces et/ou numérotées */
+ul, ol{
+    max-width: 75%;
     margin: 3px;
 }
 
@@ -146,4 +153,25 @@ h2{
 .babelLink:active{
     transition: none;
     color: #fff;
+}
+
+/** INDEX.JS **/
+
+/* Aside JAVASCRIPT */
+.cas_pratique-1 p{
+    width: 200px;
+    display: flex;
+}
+
+.cas_pratique-1 p span{
+    margin-left: 5px;
+}
+
+/* Aside JSX */
+.section-jsx{
+    display: flex;
+}
+
+.section-jsx ul{
+    margin-left: 30px;
 }

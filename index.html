@@ -58,7 +58,7 @@
                     <li>Création d'un paragraphe puis insérer du texte: (Voir avec l'inspecteur d'élément pour la création de balise HTML)</li>
                     <li>Rajout d'un compte à rebours dans une balise &lt;span></li>
                 </ol>
-                <aside><!-- Code injecté via React.js --></aside>
+                <aside class="cas_pratique-1"><!-- Code injecté via React.js --></aside>
                 
                 <span class="vertGrafikart">Remarque :</span>
                 <p><span class="bleuReact">React</span> est capable de détecter la ou la changement à lieu et permet d'éviter le rechargement complet de la fonction. Pour faire simple, <span class="bleuReact">React</span> permet de cibler la ou l'action est requise.</p>
@@ -67,9 +67,23 @@
 
                 <p>Elle va permettre d'écrire du <span class="bleuReact">React</span> plus simplement. Cette syntaxe est propre à <span class="bleuReact">React</span> et n'est pas supporter par les navigateurs. On aura donc besoin de <a class="babelLink" href="https://babeljs.io" target="_blank">Babel</a>. C'est un outil qui supporte différentes fonctionnalitées dont la possibilité de convertir du <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span>.</p>
 
-                <p>La façon la plus simple et rapide de tester <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span> est d’ajouter le script ci-dessous :</p>
+                <p>La façon la plus simple et rapide de tester <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span> est d’ajouter le script ci-dessous puis de modifier celui de l'index.js.</p>
                 <ul>
                     <li>&lt;script src="https://unpkg.com/babel-standalone@6/babel.min.js">&lt;/script></li>
+                    <li>&lt;script src="index.js" type="text/babel">&lt;/script></li>
+                </ul>
+
+                <p class="vertGrafikart">Cas pratique :</p>
+                
+                <aside class="cas_pratique-2"><!-- Code injecté via React.js --></aside>
+
+                <p class="vertGrafikart">À savoir:</p>
+                <ul>
+                    <li>Pour interpoler la valeur d'une variable et utiliser une expression en <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span> on utilise les {accolades}</li>
+                    <li>Il est possible d'ajouter des attributs sur la balise html</li>
+                    <li><span class="vertGrafikart">Particularité: </span>avec <span class="bleuReact">React</span>, si l'on veut ajouter une classe, il est préférable d'utiliser l'attribut 'className' car 'class' est un mot clé utilisé en JavaScript.</li>
+                    <li>Pour que l'html soit valide en <span class="JSdeJSX">JS</span><span class="XdeJSX">X</span> on doit avoir une seule racine, un seul élément, une seule balise comme base. On peut également utiliser un système de fragment propre à <span class="bleuReact">React</span>.
+                    <span class="vertGrafikart">Exemple : &lt;>...&lt;/></span>. Il sagit d'un élément ne possédant pas de tag.</li>
                 </ul>
             </main>
         </div>
@@ -77,5 +91,5 @@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js" type="text/babel"></script>
 </html>
